@@ -76,7 +76,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   MyTextField(
                       controller: doctorLicenseController,
                       hintText: 'Surat Ijin Praktek',
-                      obsecureText: true),
+                      obsecureText: false),
 
                   const SizedBox(height: 10), //sized box used for spacing
 
@@ -84,7 +84,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   MyTextField(
                       controller: birthDateController,
                       hintText: 'Tanggal Lahir',
-                      obsecureText: true),
+                      obsecureText: false),
 
                   const SizedBox(height: 10), //sized box used for spacing
 
@@ -92,7 +92,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   MyTextField(
                       controller: addressController,
                       hintText: 'Alamat',
-                      obsecureText: true),
+                      obsecureText: false),
 
                   const SizedBox(height: 10), //sized box used for spacing
 
@@ -100,7 +100,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   MyTextField(
                       controller: phoneNumberController,
                       hintText: 'Nomor Telepon',
-                      obsecureText: true),
+                      obsecureText: false),
 
                   const SizedBox(height: 10), //sized box used for spacing
 
